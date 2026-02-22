@@ -9,7 +9,7 @@ export default {
     required: ['symbol'],
   },
   execute: async ({ symbol }) => {
-    const API_KEY = 'd6cksvpr01qsiik2jrdg';
+    const API_KEY = 'd6cksvpr01qsiik2jrd0d6cksvpr01qsiik2jrdg';
     const url = `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${API_KEY}`;
     try {
       const response = await fetch(url);
